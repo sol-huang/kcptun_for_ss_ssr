@@ -1952,7 +1952,7 @@ update_kcptun_for_ss_ssr(){
                 if [[ "${ss_libev_local_ver}" != "${SS_LIBEV_VER}" ]];then
                     ss_libev_update_flag="true"
                 else
-                    echo "Shadowsocks-libev local version is up-to-date."
+                    ss_libev_update_flag="true"
                 fi
             fi
         else
